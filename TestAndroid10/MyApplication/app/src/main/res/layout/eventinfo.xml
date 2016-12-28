@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:text="Student ID"
+             />
+
+        <EditText
+            android:id="@+id/studentID_edittext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"/>
+        <TextView
+            android:id="@+id/eventdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"/>
+        <TextView
+            android:id="@+id/eventtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"/>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+        <TextView
+            android:id="@+id/eventattendees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"/>
+        <TextView
+            android:id="@+id/eventdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+    <Button
+        android:text="Join In"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:id="@+id/make_appointment"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:textSize="22dp"
+        android:background="@drawable/button_background1"/>
+
+    <Button
+        android:text="Check"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:id="@+id/make_appointment1"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:textSize="22dp"
+        android:background="@drawable/button_background1"/>
+
+    </LinearLayout>
+</LinearLayout>

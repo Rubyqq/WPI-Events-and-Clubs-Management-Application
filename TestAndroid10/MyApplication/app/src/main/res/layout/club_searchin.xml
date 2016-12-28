@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/clubidrs"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_width="30dp"
+        android:layout_marginLeft="-30dp" />
+    <TextView
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/clubNamers"
+        android:textSize="15sp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/black"/>
+
+
+
+</LinearLayout>

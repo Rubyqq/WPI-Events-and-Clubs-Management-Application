@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="drawer_opened">Opened</string>
+
+    <string name="studentid">Student ID</string>
+    <string name="studentlastname">Student Last Name</string>
+    <string name="studentfirstname">Student First Name</string>
+
+    <string name="event_checkout">Event Check</string>
+    <string name="Event_ID">Event ID</string>
+    <string name="studentID">Student ID</string>
+    <string name="date6">Calender</string>
+    <string name="return_btn">Return</string>
+    <string name="checkout_btn">Check Out</string>
+    <string name="Summary">Summary</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Search1</string>
+
+    <string-array name="departmentspinner">
+        <item>Mathmatics</item>
+        <item>Business</item>
+        <item>Chemical Engeerning</item>
+        <item>Computer Science</item>
+        <item>Fire Protectiion Engeerning</item>
+    </string-array>
+
+    <string name="eventid">ID</string>
+    <string name="EventName">Event Name</string>
+    <string name="EventDate">Event Date</string>
+    <string name="EventTime">Event Time</string>
+    <string name="EventLocation">Event Location</string>
+
+    <string-array name="query_array2">
+        <item>Event Type</item>
+        <item>Sport</item>
+        <item>Social</item>
+        <item>Culture</item>
+        <item>Art</item>
+        <item>Game</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="query_array3">
+        <item>Select Location</item>
+        <item>Gym</item>
+        <item>CC</item>
+        <item>WB</item>
+        <item>FL</item>
+        <item>Outside</item>
+        <item>OH</item>
+        <item>SL</item>
+        <item></item>
+    </string-array>
+</resources>

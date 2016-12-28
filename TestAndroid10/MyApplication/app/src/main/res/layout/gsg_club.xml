@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:weightSum="1"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="331dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:text="Graduate Student Government" />
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="50dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="0.34">
+
+
+    -<LinearLayout
+    android:weightSum="1"
+    android:layout_height="match_parent"
+    android:layout_width="150dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp">
+
+    <ImageView
+        android:layout_height="94dp"
+        android:layout_width="94dp"
+        android:layout_gravity="left"
+        android:id="@+id/imageView3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/gsg"/>
+
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:id="@+id/textView2"
+        android:text="The Graduate Student Government (GSG) is the governing body of the graduate students at Worcester Polytechnic Institute (WPI). Our mission is Promoting Graduate Life and we fulfill this by being the effective graduate student voice, communicating with faculty and administration, and providing academic and social functions for new and existing graduate students. We heold weekly meetings"
+        android:layout_weight="2.16"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="150dp"
+    android:orientation="vertical"
+    android:layout_gravity="right"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="20dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_marginTop="50dp"
+        android:textSize="12dp"
+        android:layout_gravity="right"
+        android:id="@+id/textView3"
+        android:text="President: Morgan Mitchell"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="106dp"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:layout_gravity="right"
+        android:id="@+id/textView42"
+        android:text="President email: mnmitchell@WPI.edu"
+        android:layout_marginRight="25dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="106dp"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:layout_gravity="right"
+        android:id="@+id/textView4"
+        android:text="Club emial:gsgexecs@wpi.edu"
+        android:layout_marginRight="25dp" />
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

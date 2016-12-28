@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:weightSum="1"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="304dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView"
+        android:text="Ballroom Dance Club"
+        android:layout_weight="0.02" />
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="50dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="0.34">
+
+
+    -<LinearLayout
+    android:weightSum="1"
+    android:layout_height="match_parent"
+    android:layout_width="150dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp">
+
+    <ImageView
+        android:layout_height="94dp"
+        android:layout_width="94dp"
+        android:layout_gravity="left"
+        android:id="@+id/imageView3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/dance"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:id="@+id/textView2"
+        android:text="Ballroom dance is a set of partner dances, which are enjoyed both socially and competitively around the world. Because of its performance and entertainment aspects, ballroom dance is also widely enjoyed on stage, film, and television.Learn to Ballroom Dance, compete with other college students, and come social dancing with the WPI Ballroom Dance Team!" android:layout_weight="2.16"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="150dp"
+    android:orientation="vertical"
+    android:layout_gravity="right"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="20dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_marginTop="50dp"
+        android:textSize="12dp"
+        android:layout_gravity="right"
+        android:id="@+id/textView3"
+        android:text="President: Sarah Putnam"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="106dp"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:layout_gravity="right"
+        android:id="@+id/textView41"
+        android:text="President sfputnam@wpi.edu"
+        android:layout_marginRight="25dp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="106dp"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:layout_gravity="right"
+        android:id="@+id/textView4"
+        android:text="Club emial:danceofficers@wpi.edu"
+        android:layout_marginRight="25dp" />
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

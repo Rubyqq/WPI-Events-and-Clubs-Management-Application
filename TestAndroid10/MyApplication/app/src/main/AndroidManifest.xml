@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wpiv10.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/worcester_polytechnic_institute3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainTestClub"></activity>
+        <activity android:name=".Test1"> </activity>
+        <activity android:name=".sign_upActivity"> </activity>
+        <activity android:name=".EventAndClub"> </activity>
+        <activity android:name=".MainTest"> </activity>
+        <activity android:name=".EventListActivity"></activity>
+        <activity android:name=".EventListActivity1"></activity>
+        <activity android:name=".EventListActivity2"></activity>
+        <activity android:name=".EventListActivity3"></activity>
+        <activity android:name=".EventTypeList"></activity>
+        <activity android:name=".EventTypeList1"></activity>
+        <activity android:name=".EventTypeList2"></activity>
+        <activity android:name=".EventTypeList3"></activity>
+        <activity android:name=".EventSearch"></activity>
+        <activity android:name=".EventList1"></activity>
+        <activity android:name=".joinInActivity"></activity>
+        <activity android:name=".checkEvent"></activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity android:name=".randomSearch"></activity>
+        <activity android:name=".randomSearch1"></activity>
+        <activity android:name=".randomSearch2"></activity>
+        <activity android:name=".chessEventPage"></activity>
+        <activity android:name=".ballRoomDanceEvent"></activity>
+        <activity android:name=".eventQuiz"></activity>
+        <activity android:name=".eventBowling"></activity>
+        <activity android:name=".eventMovieShowTime"></activity>
+        <activity android:name=".eventMiddleWeekSocial"></activity>
+        <activity android:name=".foodTasting"></activity>
+        <activity android:name=".eventDiya"></activity>
+        <activity android:name=".eventKaOK"></activity>
+        <activity android:name=".clubTypeList"></activity>
+        <activity android:name=".clubTypeList1"></activity>
+        <activity android:name=".clubTypeList2"></activity>
+        <activity android:name=".clubTypeList3"></activity>
+        <activity android:name=".chessClub"></activity>
+        <activity android:name=".socialClub"></activity>
+        <activity android:name=".gsgClub"></activity>
+        <activity android:name=".sasaClub"></activity>
+        <activity android:name=".artClub"></activity>
+    </application>
+
+</manifest>
